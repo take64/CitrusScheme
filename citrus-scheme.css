@@ -1,0 +1,288 @@
+/**
+ * citrus-scheme
+ *
+ * @copyright   Copyright 2017, Citrus/besidesplus All Rights Reserved.
+ * @author      take64 <take64@citrus.tk>
+ */
+
+body#citrus-scheme {
+    margin: 0 auto;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+* {
+    font-size: 12px;
+    color: #666666;
+}
+#citrus-scheme table,
+#citrus-scheme table thead,
+#citrus-scheme table tbody,
+#citrus-scheme table tfoot {
+    width: 100%;
+}
+#citrus-scheme th,
+#citrus-scheme td,
+#citrus-scheme div {
+    padding: 4px;
+    box-sizing: border-box;
+}
+#citrus-scheme ul {
+    padding: 0;
+    list-style-type: none;
+}
+#citrus-scheme a {
+    text-decoration: none;
+}
+#citrus-scheme h1 {
+    font-size: 32px;
+}
+
+#citrus-scheme .box {
+    border: 1px solid #CCCCCC;
+    padding: 8px;
+}
+#citrus-scheme .box-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+#citrus-scheme .shadow {
+    box-shadow: 0 0 4px 2px #CCCCCC;
+}
+#citrus-scheme .radius4 {
+    border-radius: 4px;
+}
+
+#citrus-scheme .caption {
+    border-bottom: 1px solid;
+    border-left: 4px solid;
+    padding: 4px;
+    margin: 4px;
+}
+
+/** form */
+#citrus-scheme .forms div {
+    padding: 8px;
+}
+#citrus-scheme .forms input,
+#citrus-scheme .forms select {
+    /*padding: 4px;*/
+    padding: 8px 16px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#citrus-scheme .forms input[type=text],
+#citrus-scheme .forms input[type=password] {
+     width: 100%;
+ }
+#citrus-scheme .button input[type=submit] {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    line-height: 2em;
+}
+
+/** navigation top drop */
+#citrus-scheme .navigation-top .drop-menu {
+    display: flex;
+    list-style-type: none;
+    width: auto;
+    margin: auto;
+    padding: 0;
+    background-color: #666666;
+    box-shadow: 0 0 4px 2px #CCCCCC;
+}
+#citrus-scheme .navigation-top .drop-menu li {
+    position: relative;
+    width: auto;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#citrus-scheme .navigation-top .drop-menu li a {
+    display: block;
+    margin: 0;
+    padding: 16px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1em;
+}
+#citrus-scheme .navigation-top .drop-menu li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    border-radius: 0 0 3px 3px;
+}
+#citrus-scheme .navigation-top .drop-menu li:last-child ul {
+    left: -100%;
+    width: 100%
+}
+#citrus-scheme .navigation-top .drop-menu li ul li {
+    overflow: hidden;
+    width: 200%;
+    height: 0;
+    color: #FFFFFF;
+    -moz-transition: .1s;
+    -webkit-transition: .1s;
+    -o-transition: .1s;
+    -ms-transition: .1s;
+    transition: .1s;
+}
+#citrus-scheme .navigation-top .drop-menu li ul li a {
+    padding: 12px 12px;
+    background-color: #999999;
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+}
+#citrus-scheme .navigation-top .drop-menu li:hover > a {
+    background-color: #CCCCCC;
+    color: #666666;
+}
+#citrus-scheme .navigation-top .drop-menu li:hover ul li {
+    overflow: visible;
+    height: 36px;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #666666;
+}
+#citrus-scheme .navigation-top .drop-menu li:hover ul li:first-child {
+    border-top: 0;
+}
+#citrus-scheme .navigation-top .drop-menu li:hover ul li:last-child {
+    border-bottom: 0;
+}
+#citrus-scheme .navigation-top .drop-menu li:hover ul li:last-child a {
+    border-radius: 0 0 3px 3px;
+}
+
+/** navigation bottom */
+#citrus-scheme .navigation-bottom {
+    background-color: #666666;
+    box-shadow: 0 0 4px 2px #CCCCCC;
+    text-align: center;
+    color: white;
+    padding: 4px;
+}
+
+/** titled pane */
+#citrus-scheme .titled-pane {
+    border: 1px solid #999999;
+    padding: 4px;
+    border-radius: 4px;
+}
+#citrus-scheme .titled-pane dt {
+    background-color: #666666;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+#citrus-scheme .titled-pane dt a,
+#citrus-scheme .titled-pane dt span {
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    display: block;
+}
+#citrus-scheme .titled-pane dd {
+    margin: 2px 2px 2px 8px;
+}
+#citrus-scheme .titled-pane dd a,
+#citrus-scheme .titled-pane dd span {
+    text-decoration: none;
+    padding: 4px;
+    display: block;
+    border-radius: 4px;
+}
+#citrus-scheme .titled-pane dd a:hover {
+    background-color: #EEEEEE;
+}
+#citrus-scheme .titled-pane ul li {
+    padding: 4px;
+}
+
+/** grid pane */
+#citrus-scheme .grid-pane {
+
+}
+
+#citrus-scheme .grid-pane .cell {
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    box-shadow: 0 0 4px 2px #CCCCCC;
+    border-radius: 4px;
+    margin: 4px 2px;
+}
+
+
+/** table */
+#citrus-scheme table {
+    border: 1px solid #999999;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+#citrus-scheme table th {
+    white-space: nowrap;
+}
+#citrus-scheme table th,
+#citrus-scheme table td {
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+}
+#citrus-scheme table tbody th {
+    background-color: #EEEEEE;
+}
+#citrus-scheme table tbody tr:first-child th,
+#citrus-scheme table tbody tr:first-child td {
+    border-top-width: 0;
+}
+#citrus-scheme table th:last-child,
+#citrus-scheme table td:last-child {
+    border-right-width: 0;
+}
+#citrus-scheme table thead tr th {
+    background-color: #CCCCCC;
+    color: #333333;
+}
+#citrus-scheme table thead tr:last-child th {
+}
+#citrus-scheme table thead tr:first-child th:first-child {
+    border-top-left-radius: 2px;
+}
+#citrus-scheme table thead tr:first-child th:last-child {
+    border-top-right-radius: 2px;
+}
+#citrus-scheme table thead tr:last-child th:first-child {
+    /*border-bottom-left-radius: 4px;*/
+}
+#citrus-scheme table thead tr:last-child th:last-child {
+    /*border-bottom-right-radius: 4px;*/
+}
+
+/** general */
+
+#citrus-scheme .center { text-align: center; }
+#citrus-scheme .right  { text-align: right;  }
+#citrus-scheme .left   { text-align: left;   }
+#citrus-scheme .nowrap { white-space: nowrap; }
+#citrus-scheme .number { text-align: right; }
+#citrus-scheme .size04 { width: 4ex !important; }
+#citrus-scheme .size08 { width: 8ex !important; }
+#citrus-scheme .size12 { width: 12ex !important; }
+#citrus-scheme .size16 { width: 16ex !important; }
+#citrus-scheme .size20 { width: 20ex !important; }
+#citrus-scheme .size24 { width: 24ex !important; }
+#citrus-scheme .size28 { width: 28ex !important; }
+#citrus-scheme .size32 { width: 32ex !important; }
+
+
+#citrus-scheme table.xdebug-error th,
+#citrus-scheme table.xdebug-error td {
+    white-space: normal;
+}
