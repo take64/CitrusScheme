@@ -31,17 +31,17 @@
 #citrus-scheme table.faces-list thead tr th.sortkey.asc {
     background-image:url('data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7');
 }
-#citrus-scheme table.faces-edit {
-    width: 100%;
-}
-#citrus-scheme table.faces-edit tbody th {
-    background-color: #EEEEEE;
-}
-#citrus-scheme table.faces-edit tbody td {
-    background-color: #FFFFFF;
-}
+#citrus-scheme table.faces-edit,
 #citrus-scheme table.faces-view {
     width: 100%;
+}
+#citrus-scheme table.faces-edit tbody th,
+#citrus-scheme table.faces-view tbody th {
+    background-color: #EEEEEE;
+}
+#citrus-scheme table.faces-edit tbody td,
+#citrus-scheme table.faces-view tbody td {
+    background-color: #FFFFFF;
 }
 /*#citrus-scheme .faces-area table.faces-search th,*/
 /*#citrus-scheme .faces-area table.faces-search td {*/
