@@ -1,0 +1,54 @@
+/**
+ * citrus-scheme theme blue
+ *
+ * @copyright   Copyright 2018, Citrus/besidesplus All Rights Reserved.
+ * @author      take64 <take64@citrus.tk>
+ */
+
+#citrus-scheme.theme-blue h1 {
+    color: lightblue;
+}
+
+#citrus-scheme.theme-blue .caption {
+    border-color: lightblue;
+}
+
+/* form */
+#citrus-scheme.theme-blue input[type=text]:focus,
+#citrus-scheme.theme-blue input[type=password]:focus {
+    border-color: lightblue;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(0, 140, 255, 0.5);
+}
+
+#citrus-scheme.theme-blue input[type=button],
+#citrus-scheme.theme-blue input[type=submit] {
+    border-color: lightblue;
+}
+
+#citrus-scheme.theme-blue input[type=button]:hover,
+#citrus-scheme.theme-blue input[type=submit]:hover {
+    background-color: lightblue;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(0, 140, 255, 0.5);
+}
+/* navigation */
+#citrus-scheme.theme-blue .navigation-top .drop-menu {
+    background-color: lightblue;
+}
+#citrus-scheme .navigation-top .drop-menu li a {
+    color: red;
+}
+#citrus-scheme .navigation-top .drop-menu li ul li a {
+    background-color: steelblue;
+    color: white
+}
+#citrus-scheme .navigation-top .drop-menu li:hover > a {
+    background-color: steelblue;
+    color: white;
+}
+#citrus-scheme .navigation-top .drop-menu li:hover ul li {
+    border-top-color: steelblue;
+    border-bottom-color: lightblue;
+}
+#citrus-scheme .navigation-top .drop-menu li:hover ul li:hover > a {
+    background-color: lightblue;
+}
