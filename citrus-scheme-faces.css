@@ -5,6 +5,10 @@
  * @author      take64 <take64@citrus.tk>
  */
 
+#citrus-scheme .faces-area .faces-operation {
+    width: 100%;
+}
+
 #citrus-scheme .faces-area table.faces-search {
     width: 100%;
 }
