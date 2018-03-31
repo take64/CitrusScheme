@@ -5,48 +5,103 @@
  * @author      take64 <take64@citrus.tk>
  */
 
+#citrus-scheme .faces-area {
+    padding: 16px;
+}
 #citrus-scheme .faces-area .faces-operation {
     width: 100%;
 }
+#citrus-scheme .faces-area .faces-caption {
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+    border-left: 4px solid;
+    padding: 4px;
+    margin-bottom: 8px;
+}
 
-#citrus-scheme .faces-area table.faces-search {
+#citrus-scheme table.faces-search {
+    width: 100%;
+    margin-bottom: 8px;
+}
+#citrus-scheme table.faces-search thead tr th,
+#citrus-scheme table.faces-search thead tr td,
+#citrus-scheme table.faces-search tbody tr th,
+#citrus-scheme table.faces-search tbody tr td,
+#citrus-scheme table.faces-search tfoot tr th,
+#citrus-scheme table.faces-search tfoot tr td {
+    padding: 4px;
+    box-sizing: border-box;
+}
+#citrus-scheme table.faces-search .pager {
     width: 100%;
 }
-#citrus-scheme .faces-area table.faces-search .pager {
-    width: 100%;
+#citrus-scheme table.faces-search .pager .navigation ul {
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
-#citrus-scheme .faces-area table.faces-list {
+#citrus-scheme .faces-list {
     width: 100%;
+    margin-bottom: 8px;
 }
-#citrus-scheme .faces-area table.faces-list tr.selected {
+#citrus-scheme .faces-list tr.selected {
     background-color: yellow;
 }
 
-#citrus-scheme table.faces-list thead tr th.sortkey {
+#citrus-scheme .faces-list thead tr th,
+#citrus-scheme .faces-list thead tr td {
+    padding: 4px;
+    box-sizing: border-box;
+}
+#citrus-scheme .faces-list thead tr th.sortkey {
     background-repeat: no-repeat;
     background-position: right center;
 }
-#citrus-scheme table.faces-list thead tr th.sortkey.default {
+#citrus-scheme .faces-list thead tr th.sortkey.default {
     background-image:url('data:image/gif;base64,R0lGODlhFQAJAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAkAAAIXjI+AywnaYnhUMoqt3gZXPmVg94yJVQAAOw==');
 }
-#citrus-scheme table.faces-list thead tr th.sortkey.desc {
+#citrus-scheme .faces-list thead tr th.sortkey.desc {
     background-image:url('data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7');
 }
-#citrus-scheme table.faces-list thead tr th.sortkey.asc {
+#citrus-scheme .faces-list thead tr th.sortkey.asc {
     background-image:url('data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7');
 }
-#citrus-scheme table.faces-edit,
-#citrus-scheme table.faces-view {
+
+#citrus-scheme .faces-list tbody tr th,
+#citrus-scheme .faces-list tbody tr td {
+    padding: 4px;
+    box-sizing: border-box;
+}
+#citrus-scheme .faces-edit,
+#citrus-scheme .faces-view {
     width: 100%;
 }
-#citrus-scheme table.faces-edit tbody th,
-#citrus-scheme table.faces-view tbody th {
+#citrus-scheme .faces-edit tbody th,
+#citrus-scheme .faces-view tbody th {
+    padding: 4px;
+    box-sizing: border-box;
     background-color: #EEEEEE;
 }
-#citrus-scheme table.faces-edit tbody td,
-#citrus-scheme table.faces-view tbody td {
+#citrus-scheme .faces-edit tbody td,
+#citrus-scheme .faces-view tbody td {
+    padding: 4px;
+    box-sizing: border-box;
     background-color: #FFFFFF;
 }
+
+#citrus-scheme [class^='faces-'] input,
+#citrus-scheme [class^='faces-'] select,
+#citrus-scheme [class^='faces-'] button {
+    padding: 8px 16px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#citrus-scheme [class^='faces-'] input {
+     width: 100%;
+}
+
+
 /*#citrus-scheme .faces-area table.faces-search th,*/
 /*#citrus-scheme .faces-area table.faces-search td {*/
     /*padding: 4px;*/

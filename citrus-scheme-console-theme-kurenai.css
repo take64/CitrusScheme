@@ -1,0 +1,16 @@
+/**
+ * citrus-scheme console theme kurenai
+ *
+ * @copyright   Copyright 2018, Citrus/besidesplus All Rights Reserved.
+ * @author      take64 <take64@citrus.tk>
+ */
+
+#citrus-scheme.theme-kurenai .console .list {
+    border: 1px solid #D7003A;
+}
+
+#citrus-scheme.theme-kurenai .console .list thead th {
+    background-color: #D7003A;
+    color: white;
+    border-top: none;
+}
