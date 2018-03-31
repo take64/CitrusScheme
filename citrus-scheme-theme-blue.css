@@ -6,49 +6,49 @@
  */
 
 #citrus-scheme.theme-blue h1 {
-    color: lightblue;
+    color: #007BBB;
 }
 
 #citrus-scheme.theme-blue .caption {
-    border-color: lightblue;
+    border-color: #007BBB;
 }
 
 /* form */
 #citrus-scheme.theme-blue input[type=text]:focus,
 #citrus-scheme.theme-blue input[type=password]:focus {
-    border-color: lightblue;
+    border-color: #007BBB;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(0, 140, 255, 0.5);
 }
 
 #citrus-scheme.theme-blue input[type=button],
 #citrus-scheme.theme-blue input[type=submit] {
-    border-color: lightblue;
+    border-color: #007BBB;
 }
 
 #citrus-scheme.theme-blue input[type=button]:hover,
 #citrus-scheme.theme-blue input[type=submit]:hover {
-    background-color: lightblue;
+    background-color: #007BBB;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(0, 140, 255, 0.5);
 }
 /* navigation */
 #citrus-scheme.theme-blue .navigation-top .drop-menu {
-    background-color: lightblue;
+    background-color: #007BBB;
 }
 #citrus-scheme .navigation-top .drop-menu li a {
-    color: red;
+    color: white;
 }
 #citrus-scheme .navigation-top .drop-menu li ul li a {
-    background-color: steelblue;
+    background-color: #00A6FF;
     color: white
 }
 #citrus-scheme .navigation-top .drop-menu li:hover > a {
-    background-color: steelblue;
+    background-color: #00A6FF;
     color: white;
 }
 #citrus-scheme .navigation-top .drop-menu li:hover ul li {
-    border-top-color: steelblue;
-    border-bottom-color: lightblue;
+    border-top-color: #00A6FF;
+    border-bottom-color: #007BBB;
 }
 #citrus-scheme .navigation-top .drop-menu li:hover ul li:hover > a {
-    background-color: lightblue;
+    background-color: #007BBB;
 }

@@ -5,26 +5,26 @@
  * @author      take64 <take64@citrus.tk>
  */
 
-body#citrus-scheme {
+#citrus-scheme body {
     margin: 0 auto;
     font-family: "Hiragino Kaku Gothic ProN";
 }
 * {
     font-size: 12px;
-    color: #666666;
+    /*color: #666666;*/
 }
-table,
-table thead,
-table tbody,
-table tfoot {
-    width: 100%;
-}
-th,
-td,
-div {
-    padding: 4px;
-    box-sizing: border-box;
-}
+/*table,*/
+/*table thead,*/
+/*table tbody,*/
+/*table tfoot {*/
+    /*width: 100%;*/
+/*}*/
+/*th,*/
+/*td,*/
+/*div {*/
+    /*padding: 4px;*/
+    /*box-sizing: border-box;*/
+/*}*/
 ul {
     padding: 0;
     list-style-type: none;
@@ -37,7 +37,6 @@ h1 {
 }
 
 #citrus-scheme .box {
-    border: 1px solid #CCCCCC;
     padding: 8px;
 }
 #citrus-scheme .box-center {
@@ -58,31 +57,50 @@ h1 {
     border-bottom: 1px solid;
     border-left: 4px solid;
     padding: 4px;
-    margin: 4px;
+    margin-bottom: 4px;
 }
 
-/** form */
-.forms div {
+#citrus-scheme .form-pane {
     padding: 8px;
 }
-.forms input,
-.forms button,
-.forms select {
+#citrus-scheme .form-pane input,
+#citrus-scheme .form-pane button,
+#citrus-scheme .form-pane select {
     /*padding: 4px;*/
     padding: 8px 16px;
     border: 1px solid #CCCCCC;
     border-radius: 4px;
     box-sizing: border-box;
+    margin-bottom: 8px;
 }
-#citrus-scheme .forms input[type=text],
-#citrus-scheme .forms input[type=password] {
-     width: 100%;
- }
-#citrus-scheme .button input[type=submit] {
-    border: 1px solid #CCCCCC;
-    border-radius: 4px;
-    line-height: 2em;
+#citrus-scheme .form-pane input[type=text],
+#citrus-scheme .form-pane input[type=password] {
+    width: 100%;
 }
+
+/** form */
+/*.forms div {*/
+    /*padding: 8px;*/
+/*}*/
+/*#citrus-scheme .forms input,*/
+/*#citrus-scheme .forms button,*/
+/*#citrus-scheme .forms select {*/
+    /*!*padding: 4px;*!*/
+    /*padding: 8px 16px;*/
+    /*border: 1px solid #CCCCCC;*/
+    /*border-radius: 4px;*/
+    /*box-sizing: border-box;*/
+    /*margin: 4px;*/
+/*}*/
+/*#citrus-scheme .forms input[type=text],*/
+/*#citrus-scheme .forms input[type=password] {*/
+     /*width: 100%;*/
+ /*}*/
+/*#citrus-scheme .button input[type=submit] {*/
+    /*border: 1px solid #CCCCCC;*/
+    /*border-radius: 4px;*/
+    /*line-height: 2em;*/
+/*}*/
 
 /** navigation top drop */
 #citrus-scheme .navigation-top .drop-menu {

@@ -1,0 +1,73 @@
+/**
+ * citrus-scheme faces theme blue
+ *
+ * @copyright   Copyright 2018, Citrus/besidesplus All Rights Reserved.
+ * @author      take64 <take64@citrus.tk>
+ */
+
+#citrus-scheme .faces-area .faces-search,
+#citrus-scheme .faces-area .faces-list {
+    border: 1px solid #007BBB;
+}
+#citrus-scheme .faces-area .faces-search thead th,
+#citrus-scheme .faces-area .faces-list thead th {
+    background-color: #007BBB;
+    color: white;
+    border-top: none;
+}
+#citrus-scheme .faces-area .faces-search tbody th,
+#citrus-scheme .faces-area .faces-list tbody th {
+    background-color: #70A0BA;
+    color: white;
+}
+
+.ui-dialog-title {
+    color: white;
+}
+
+/*#citrus-scheme .faces-area .faces-operation {*/
+    /*width: 100%;*/
+/*}*/
+
+/*#citrus-scheme .faces-area table.faces-search {*/
+    /*width: 100%;*/
+/*}*/
+/*#citrus-scheme .faces-area table.faces-search .pager {*/
+    /*width: 100%;*/
+/*}*/
+/*#citrus-scheme .faces-area table.faces-list {*/
+    /*width: 100%;*/
+/*}*/
+/*#citrus-scheme .faces-area table.faces-list tr.selected {*/
+    /*background-color: yellow;*/
+/*}*/
+
+/*#citrus-scheme table.faces-list thead tr th.sortkey {*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: right center;*/
+/*}*/
+/*#citrus-scheme table.faces-list thead tr th.sortkey.default {*/
+    /*background-image:url('data:image/gif;base64,R0lGODlhFQAJAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAkAAAIXjI+AywnaYnhUMoqt3gZXPmVg94yJVQAAOw==');*/
+/*}*/
+/*#citrus-scheme table.faces-list thead tr th.sortkey.desc {*/
+    /*background-image:url('data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7');*/
+/*}*/
+/*#citrus-scheme table.faces-list thead tr th.sortkey.asc {*/
+    /*background-image:url('data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7');*/
+/*}*/
+/*#citrus-scheme table.faces-edit,*/
+/*#citrus-scheme table.faces-view {*/
+    /*width: 100%;*/
+/*}*/
+/*#citrus-scheme table.faces-edit tbody th,*/
+/*#citrus-scheme table.faces-view tbody th {*/
+    /*background-color: #EEEEEE;*/
+/*}*/
+/*#citrus-scheme table.faces-edit tbody td,*/
+/*#citrus-scheme table.faces-view tbody td {*/
+    /*background-color: #FFFFFF;*/
+/*}*/
+/*!*#citrus-scheme .faces-area table.faces-search th,*!*/
+/*!*#citrus-scheme .faces-area table.faces-search td {*!*/
+    /*!*padding: 4px;*!*/
+/*!*}*!*/
