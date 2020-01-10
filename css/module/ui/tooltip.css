@@ -1,0 +1,101 @@
+/**
+ * CitrusScheme css frameworks
+ * Copyright 2019 citrus.tk take64.
+ *
+ * green #00A960
+ * white #FAFDFF
+ */
+
+/** tooltip */
+.cs-container [cs-tooltip-data] {
+    position: relative;
+    z-index: 10;
+}
+.cs-container [cs-tooltip-data]:before,
+.cs-container [cs-tooltip-data]:after {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 4px);
+}
+[cs-tooltip-data]:before {
+    content: attr(cs-tooltip-data);
+    padding: 0.25rem 1rem;
+    min-width: 50px;
+    max-width: 300px;
+    width: max-content;
+    width: -moz-max-content;
+    border-radius: 4px;
+    background-color: #00A960;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+    color: #FAFDFF;
+    text-align: center;
+    white-space: pre-wrap;
+    transform: translate(-50%, -4px) scale(0.5);
+}
+
+/** tooltip default(top) arrow */
+[cs-tooltip-data]:after {
+    content: '';
+    border-style: solid;
+    border-width: 4px 4px 0 4px;
+    border-color: #00A960 transparent transparent transparent;
+    transform-origin: top;
+    transform: translateX(-50%) scaleY(0);
+}
+[cs-tooltip-data]:before {
+    transform: translate(-50%, -4px) scale(1);
+}
+[cs-tooltip-data]:after {
+    transform: translateX(-50%) scaleY(1);
+}
+
+
+/** tooltip left */
+.cs-container .cs-tooltip-left[cs-tooltip-data]:before,
+.cs-container .cs-tooltip-left[cs-tooltip-data]:after {
+    left: auto;
+    right: calc(100% + 4px);
+    bottom: 50%;
+}
+.cs-container .cs-tooltip-left[cs-tooltip-data]:before {
+    transform: translate(-4px, 50%) scale(1);
+}
+.cs-container .cs-tooltip-left[cs-tooltip-data]:after {
+    border-width: 4px 0 4px 4px;
+    border-color: transparent transparent transparent #00A960;
+    transform-origin: left;
+    transform: translateY(50%) scaleX(1);
+}
+
+
+/** tooltip right */
+.cs-container .cs-tooltip-right[cs-tooltip-data]:before,
+.cs-container .cs-tooltip-right[cs-tooltip-data]:after {
+    left: calc(100% + 4px);
+    bottom: 50%;
+}
+.cs-container .cs-tooltip-right[cs-tooltip-data]:before {
+    transform: translate(4px, 50%) scale(1);
+}
+.cs-container .cs-tooltip-right[cs-tooltip-data]:after {
+    border-width: 4px 4px 4px 0;
+    border-color: transparent #00A960 transparent transparent;
+    transform-origin: right;
+    transform: translateY(50%) scaleX(1);
+}
+
+
+/** tooltip bottom */
+.cs-container .cs-tooltip-bottom[cs-tooltip-data]:before,
+.cs-container .cs-tooltip-bottom[cs-tooltip-data]:after {
+    top: calc(100% + 4px);
+    bottom: auto;
+}
+.cs-container .cs-tooltip-bottom[cs-tooltip-data]:before {
+    transform: translate(-50%, 4px) scale(1);
+}
+.cs-container .cs-tooltip-bottom[cs-tooltip-data]:after {
+    border-width: 0 4px 4px 4px;
+    border-color: transparent transparent #00A960 transparent;
+    transform-origin: bottom;
+}
