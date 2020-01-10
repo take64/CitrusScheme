@@ -1,0 +1,28 @@
+/**
+ * CitrusScheme css frameworks
+ * Copyright 2019 citrus.tk take64.
+ *
+ * green #00A960
+ */
+
+/** card */
+.cs-container .cs-card {
+    margin: 8px;
+    border-radius: 2px;
+    border: 1px solid #00A960;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+}
+.cs-container .cs-card .cs-card-title {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    border-bottom: 1px solid #00A960;
+}
+.cs-container .cs-card .cs-card-body {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #00A960;
+}
+.cs-container .cs-card .cs-card-option {
+    padding: 0.5rem 1rem;
+    text-align: right;
+}
