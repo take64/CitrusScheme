@@ -1,0 +1,102 @@
+/**
+ * CitrusScheme css frameworks
+ * Copyright 2019 citrus.tk take64.
+ *
+ * green #00A960
+ * white #FAFDFF
+ * opal #BEE0CE
+ */
+
+/** dropdown */
+.cs-container .cs-nav-dropdown {
+    background-color: #00A960;
+    display: flex;
+}
+.cs-container .cs-nav-dropdown ul {
+    padding: 0;
+}
+.cs-container .cs-nav-dropdown li {
+    list-style: none;
+    position: relative;
+    width: auto;
+    height: 4rem;
+}
+.cs-container .cs-nav-dropdown li a {
+    color: #BEE0CE;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: block;
+    line-height: 2rem;
+}
+.cs-container .cs-nav-dropdown li.cs-nav-title a {
+    font-weight: bold;
+    color: #FAFDFF;
+}
+.cs-container .cs-nav-dropdown li a:hover {
+    color: #FAFDFF;
+    background-color: #00A960;
+}
+.cs-container .cs-nav-dropdown li ul li {
+    overflow: hidden;
+    height: 0;
+    -moz-transition: .1s;
+    -webkit-transition: .1s;
+    -o-transition: .1s;
+    -ms-transition: .1s;
+    transition: .1s;
+}
+.cs-container .cs-nav-dropdown li:hover > ul > li {
+    overflow: visible;
+    height: auto;
+}
+.cs-container .cs-nav-dropdown li li a {
+    padding: 0.5rem 2rem;
+    color: #00A960;
+}
+.cs-container .cs-nav-dropdown li li ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+.cs-container .cs-nav-dropdown li:hover ul {
+    width: 100%;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: absolute;
+}
+.cs-container .cs-nav-dropdown > li:hover > ul {
+    border: 1px solid #00A960;
+    top: 3rem;
+    background-color: #FAFDFF;
+    width: 200%;
+}
+.cs-container .cs-nav-dropdown li ul li:hover > ul {
+    border: 1px solid #00A960;
+    top: -9px;
+    left: calc(100% - 1rem);
+    background-color: #FAFDFF;
+}
+
+
+/** dropdown allow */
+.cs-container .cs-nav-dropdown > li > ul:before {
+    width: 80%;
+    height: 0.25rem;
+    border-radius: 2px;
+    background-color: #FAFDFF;
+    content: "";
+    position: absolute;
+    left: 10%;
+    bottom: 0.25rem;
+}
+.cs-container .cs-nav-dropdown li ul li ul:before {
+    width: 0.25rem;
+    height: 2rem;
+    border-radius: 2px;
+    background-color: #00A960;
+    content: "";
+    position: absolute;
+    left: -0.5rem;
+    top: 1rem;
+}
