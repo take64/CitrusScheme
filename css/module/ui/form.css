@@ -1,0 +1,42 @@
+/**
+ * CitrusScheme css frameworks
+ * Copyright 2019 citrus.tk take64.
+ *
+ * green #00A960
+ * white #FAFDFF
+ */
+
+/** label */
+.cs-form label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+/** input text, password */
+.cs-form input[type="text"],
+.cs-form input[type="password"] {
+    padding: 0.5rem 1rem;
+    border: 1px solid #00A960;
+    border-radius: 4px;
+    width: 100%;
+}
+.cs-form input[type="text"]:focus,
+.cs-form input[type="password"]:focus {
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
+}
+
+/** button */
+.cs-form button,
+.cs-form input[type="submit"] {
+    padding: 0.5rem 1rem;
+    border: 1px solid #00A960;
+    border-radius: 4px;
+    background-color: #00A960;
+    color: #FAFDFF;
+}
+.cs-form button:hover,
+.cs-form input[type="submit"]:hover {
+    background-color: #FAFDFF;
+    color: #00A960;
+    cursor: pointer;
+}
