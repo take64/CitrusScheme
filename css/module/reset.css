@@ -35,6 +35,10 @@ span[class] {
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     min-height: 100vh;
     scroll-behavior: smooth;

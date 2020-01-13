@@ -1,0 +1,51 @@
+/**
+ * CitrusScheme css frameworks
+ * Copyright 2019 citrus.tk take64.
+ *
+ * green #00A960
+ * viridian #00885A
+ * white #FAFDFF
+ * cloud #D4D9DF
+ */
+
+/** table */
+.cs-container .cs-table {
+    border: 1px solid #00885A;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+.cs-container .cs-table th {
+    white-space: nowrap;
+}
+.cs-container .cs-table th,
+.cs-container .cs-table td {
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+}
+.cs-container .cs-table thead th {
+    font-size: 1.25rem;
+}
+.cs-container .cs-table tbody th {
+    background-color: #EEEEEE;
+}
+.cs-container .cs-table tbody tr:first-child th,
+.cs-container .cs-table tbody tr:first-child td {
+    border-top-width: 0;
+}
+.cs-container .cs-table th:last-child,
+.cs-container .cs-table td:last-child {
+    border-right-width: 0;
+}
+.cs-container .cs-table thead tr th {
+    background-color: #CCCCCC;
+    color: #333333;
+}
+.cs-container .cs-table thead tr:first-child th:first-child {
+    border-top-left-radius: 4px;
+}
+.cs-container .cs-table thead tr:first-child th:last-child {
+    border-top-right-radius: 4px;
+}
