@@ -1,0 +1,101 @@
+/**
+ * CitrusScheme faces css frameworks
+ * Copyright 2019 citrus.tk take64.
+ *
+ * 色はこの辺りを参考
+ * @see https://www.colordic.org/y
+ * green #00A960
+ * viridian #00885A
+ * limelight #FFF799
+ */
+
+.cs-container .faces-area {
+    padding: 16px;
+}
+.cs-container .faces-area .faces-operation {
+    width: 100%;
+}
+.cs-container .faces-area .faces-caption {
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 1px solid;
+    border-left: 4px solid;
+    border-color: #00885A;
+    padding: 4px;
+    margin-bottom: 8px;
+}
+
+.cs-container .faces-search {
+    width: 100%;
+    margin-bottom: 8px;
+}
+.cs-container .faces-search thead tr th,
+.cs-container .faces-search thead tr td,
+.cs-container .faces-search tbody tr th,
+.cs-container .faces-search tbody tr td,
+.cs-container .faces-search tfoot tr th,
+.cs-container .faces-search tfoot tr td {
+    padding: 4px;
+    /*box-sizing: border-box;*/
+}
+.cs-container .faces-search .pager {
+    width: 100%;
+}
+.cs-container .faces-search .pager .navigation ul {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.cs-container .faces-list {
+    width: 100%;
+    margin-bottom: 8px;
+}
+.cs-container .faces-list tr.selected {
+    background-color: #FFF799;
+}
+.cs-container .faces-list thead tr th,
+.cs-container .faces-list thead tr td {
+    padding: 4px;
+    box-sizing: border-box;
+}
+.cs-container .faces-list thead tr th.sortkey {
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.cs-container .faces-list thead tr th.sortkey.default {
+    background-image:url('data:image/gif;base64,R0lGODlhFQAJAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAkAAAIXjI+AywnaYnhUMoqt3gZXPmVg94yJVQAAOw==');
+}
+.cs-container .faces-list thead tr th.sortkey.desc {
+    background-image:url('data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7');
+}
+.cs-container .faces-list thead tr th.sortkey.asc {
+    background-image:url('data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7');
+}
+
+.cs-container .faces-list tbody tr th,
+.cs-container .faces-list tbody tr td {
+    padding: 4px;
+    box-sizing: border-box;
+}
+.cs-container .faces-edit,
+.cs-container .faces-view {
+    width: 100%;
+}
+.cs-container .faces-edit tbody th,
+.cs-container .faces-view tbody th {
+    padding: 4px;
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+}
+.cs-container .faces-edit tbody td,
+.cs-container .faces-view tbody td {
+    padding: 4px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+.cs-container .ui-dialog {
+    padding: 0.8rem;
+}
+.cs-container .ui-button {
+    padding: 0.8rem 1.6rem;
+}
