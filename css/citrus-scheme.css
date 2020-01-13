@@ -9,5 +9,6 @@
 
 @import "module/reset.css";
 @import "module/container.css";
+@import "module/layout.css";
 @import "module/nav.css";
 @import "module/ui.css";
