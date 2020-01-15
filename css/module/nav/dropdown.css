@@ -32,6 +32,9 @@
     font-weight: bold;
     color: #FAFDFF;
 }
+.cs-container .cs-nav-dropdown > li:not([class="cs-nav-title"]) {
+    width: 12.5%;
+}
 .cs-container .cs-nav-dropdown li a:hover {
     color: #FAFDFF;
     background-color: #00A960;
