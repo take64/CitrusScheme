@@ -1,0 +1,9 @@
+/**
+ * CitrusScheme css frameworks
+ * Copyright 2019 citrus.tk take64.
+ */
+
+/** shadow */
+.cs-container .cs-shadow {
+    box-shadow: 0 0 4px 2px rgba(102, 102, 102, 0.25);
+}
