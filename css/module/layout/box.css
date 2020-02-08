@@ -1,0 +1,10 @@
+/**
+ * CitrusScheme css frameworks
+ * Copyright 2019 citrus.tk take64.
+ */
+
+/** box */
+.cs-container .cs-center-box {
+  position: relative;
+  margin: auto;
+}
