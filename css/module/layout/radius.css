@@ -1,0 +1,12 @@
+/**
+ * CitrusScheme css frameworks
+ * Copyright 2019 citrus.tk take64.
+ */
+
+/** radius */
+.cs-container .cs-radius4 {
+    border-radius: 4px;
+}
+.cs-container .cs-radius8 {
+    border-radius: 8px;
+}
