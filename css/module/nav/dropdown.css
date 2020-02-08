@@ -27,6 +27,7 @@
     padding: 1rem 2rem;
     display: block;
     line-height: 2rem;
+    font-size: 1.2rem;
 }
 .cs-container .cs-nav-dropdown li.cs-nav-title a {
     font-weight: bold;
